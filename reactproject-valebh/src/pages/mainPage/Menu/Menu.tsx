@@ -1,11 +1,18 @@
-import { Alert } from '@mui/material';
-
-export function Menu(){
+export function Menu() {
     return (
-        <menu className="h-96 w-48 bg-gray-500">
-            <Alert severity="success">
-  Here is a gentle confirmation that your action was successful.
-</Alert>
-        </menu>
-    )
-}
+      <nav className="h-96 w-48 mt-24 ml-14 bg-gray-500">
+        <div className="grid grid-cols-1">
+          <button className="border-b-2 border-white h-12 flex items-center justify-center">
+            Perto de Você
+          </button>
+          <button className="border-b-2 border-white h-12 flex items-center justify-center">
+            Localize
+          </button>
+          <button className="border-b-2 border-white h-12 flex items-center justify-center">
+            Routinizer
+          </button>
+        </div>
+      </nav>
+    );
+  }
+  
