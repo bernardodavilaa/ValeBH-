@@ -1,9 +1,9 @@
-import { Nav } from "./components";
+import { Menu } from "pages";
 
 export default function App() {
   return (
-    <div>
-        <Nav />
-    </div>
+    <>
+    <Menu />
+    </>
   )
 }
