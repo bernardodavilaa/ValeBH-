@@ -4,7 +4,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 
 const TOKEN = process.env.REACT_APP_MAPBOX_API_KEY;
 
-export function Menu() {
+export function LocationMap() {
   const [viewport, setViewport] = useState({
     latitude: -19.932094700182997,
     longitude: -43.933182163158506,
@@ -12,7 +12,7 @@ export function Menu() {
   });
 
   return (
-    <div className="h-96 w-96 mt-24 ml-14 bg-gray-500">
+    <div className="h-96 w-[520px] mt-24 ml-14 bg-gray-500">
       {/* <Map
         initialViewState={viewport}
         mapStyle="mapbox://styles/mapbox/streets-v11"
